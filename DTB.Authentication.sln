@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTB.Authentication", "DTB.Authentication\DTB.Authentication.csproj", "{C5ACE3E5-534B-4064-AC63-C286C21DA04D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationTest", "AuthenticationTest\AuthenticationTest.csproj", "{FBA074CE-1270-498B-9502-C91AB51E2E08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5ACE3E5-534B-4064-AC63-C286C21DA04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5ACE3E5-534B-4064-AC63-C286C21DA04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5ACE3E5-534B-4064-AC63-C286C21DA04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5ACE3E5-534B-4064-AC63-C286C21DA04D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA074CE-1270-498B-9502-C91AB51E2E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA074CE-1270-498B-9502-C91AB51E2E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA074CE-1270-498B-9502-C91AB51E2E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA074CE-1270-498B-9502-C91AB51E2E08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+		SolutionGuid = {763B714E-3C34-4C4C-AE87-0665BC3FD3C1}
+	EndGlobalSection
+EndGlobal

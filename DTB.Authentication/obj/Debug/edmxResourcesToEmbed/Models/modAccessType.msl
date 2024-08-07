@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UserDBModelStoreContainer" CdmEntityContainer="UserDBEntities">
+    <FunctionImportMapping FunctionImportName="usp_selAcceessTypes" FunctionName="UserDBModel.Store.usp_selAcceessTypes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="UserDBModel.usp_selAcceessTypes_Result">
+          <ScalarProperty Name="actID" ColumnName="actID" />
+          <ScalarProperty Name="actName" ColumnName="actName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
